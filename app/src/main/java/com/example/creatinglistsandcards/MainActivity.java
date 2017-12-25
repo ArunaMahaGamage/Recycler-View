@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView1.setLayoutManager(mLayoutManager1);
 
         // specify an adapter (see also next example)
-        String[] myDataset = {"A","B","C","D","E","G","H"};
+        String[] myDataset = {"A","B","C","D","E","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
         mAdapter = new MyAdapter(myDataset);
         mRecyclerView.setAdapter(mAdapter);
 
